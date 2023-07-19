@@ -1,0 +1,25 @@
+.container__header{
+    width: 100%;
+    border-bottom: 1px solid green;
+    padding: 14px 0;
+}
+.container__header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.container__header div img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.container__header div ul {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: green;
+    font-family: Inter;
+}
